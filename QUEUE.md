@@ -43,3 +43,5 @@ A **queue** is a linear data structure that follows the **First In, First Out (F
 - **Common Operations**: Enqueue, Dequeue, Peek (Front), Rear, isFull, isEmpty.
 
 ---
+
+Queue structures are useful when items need to be processed in order, especially in shared resource scenarios or scheduling tasks.
