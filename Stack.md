@@ -22,7 +22,7 @@ Stacks can be implemented in two main ways:
 1. **Using an Array**
 2. **Using a Linked List**
 
-[Stack Implementation on HackerRank](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)
+[Stack Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Stack.py)
 
 ## Advantages
 - **Simplicity**: Stacks are easy to implement and understand.
@@ -45,4 +45,3 @@ Stacks can be implemented in two main ways:
 
 ---
 
-Feel free to copy and paste this markdown directly into your `README.md` file on GitHub! The content is structured for easy readability and clarity.
