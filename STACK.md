@@ -34,7 +34,7 @@ Stacks can be implemented in two main ways:
 
 - **Using Arrays**: Simple and memory-efficient, but lacks dynamic resizing.
 - **Using Linked Lists**: Allows dynamic sizing, but requires extra memory for pointers.
-- **[Stack Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/STACK.py)
+- [Stack Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/STACK.py)
 
 ## Advantages
 
