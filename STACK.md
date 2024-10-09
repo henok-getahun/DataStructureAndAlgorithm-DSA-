@@ -1,47 +1,62 @@
 # Stack Data Structure
 
-A **stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle. It operates such that the last element added is the first one removed.
+A **stack** is a linear data structure that follows the **LIFO (Last In, First Out)** principle. The last element added to the stack is the first one removed. Think of it as a stack of plates: you add and remove plates from the top.
 
 ## Key Concepts
-- The **top** of the stack is the reference to the last added element.
-- Stacks can be implemented using either arrays or linked lists.
+
+- **LIFO Principle**: Last element pushed is the first to be popped.
+- **Top of the Stack**: The most recently added element.
+- **Overflow/Underflow**: An overflow occurs when adding to a full stack, and an underflow occurs when removing from an empty stack.
 
 ## Types of Stack
-1. **Fixed Size Stack**: Has a fixed capacity and cannot grow or shrink dynamically.
-2. **Dynamic Size Stack**: Can dynamically grow or shrink as required.
+
+1. **Fixed Size Stack**: 
+   - Has a predefined capacity.
+   - Overflow and underflow conditions can occur.
+
+2. **Dynamic Size Stack**: 
+   - Can grow or shrink as needed.
+   - Typically implemented using linked lists.
 
 ## Basic Operations
-- `push()`: Inserts an element onto the stack.
-- `pop()`: Removes the top element from the stack.
-- `top()`: Returns the top element without removing it.
-- `isEmpty()`: Returns `true` if the stack is empty, otherwise `false`.
-- `isFull()`: Returns `true` if the stack is full, otherwise `false`.
 
-## Stack Implementation
+| Operation | Description                                         | Time Complexity | Space Complexity |
+|-----------|-----------------------------------------------------|-----------------|------------------|
+| `push()`  | Adds an element to the top of the stack.           | O(1)            | O(1)             |
+| `pop()`   | Removes the top element from the stack.             | O(1)            | O(1)             |
+| `top()`   | Returns the top element without removing it.        | O(1)            | O(1)             |
+| `isEmpty()`| Checks if the stack is empty.                      | O(1)            | O(1)             |
+| `isFull()`| Checks if the stack is full.                       | O(1)            | O(1)             |
+
+## Implementation
+
 Stacks can be implemented in two main ways:
-1. **Using an Array**
-2. **Using a Linked List**
 
+- **Using Arrays**: Simple and memory-efficient, but lacks dynamic resizing.
+- **Using Linked Lists**: Allows dynamic sizing, but requires extra memory for pointers.
 [Stack Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Stack.py)
 
 ## Advantages
-- **Simplicity**: Stacks are easy to implement and understand.
-- **Efficiency**: `push` and `pop` operations run in constant time `O(1)`.
-- **LIFO Principle**: Stacks naturally follow the LIFO principle, making them suitable for tasks like function call management and expression evaluation.
-- **Memory Efficiency**: Stacks only need to store active elements, making them space-efficient.
+
+- **Simplicity**: Easy to understand and implement.
+- **Efficiency**: Constant time complexity for basic operations.
+- **Memory Usage**: More memory-efficient compared to some other structures.
 
 ## Disadvantages
-- **Limited Access**: Only the top element is directly accessible.
-- **Overflow Risk**: A fixed-size stack may overflow if capacity is exceeded.
-- **No Random Access**: Stacks do not allow for direct access to elements in the middle.
-- **Limited Capacity**: Fixed-size stacks have a predefined limit, which may be insufficient in some cases.
+
+- **Limited Access**: Elements can only be accessed from the top.
+- **Overflow Risks**: Can run out of space if not managed.
+- **No Random Access**: Not suitable for scenarios requiring random access.
 
 ## Applications
-- **Infix to Postfix/Prefix conversions**
-- **Undo/Redo functionality** in text editors and graphic design software.
-- **Forward/Backward navigation** in web browsers.
-- **Memory Management** in modern operating systems.
-- **Function Call Management**: Managing recursive function calls or nested function calls in programming.
+
+- **Function Call Management**: Used to handle function calls in programming languages.
+- **Undo Features**: In applications like text editors and graphic software.
+- **Expression Evaluation**: Useful in converting infix expressions to postfix or prefix.
 
 ---
+
+
+
+
 
