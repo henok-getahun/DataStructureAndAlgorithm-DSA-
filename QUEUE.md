@@ -8,6 +8,14 @@ A **queue** is a linear data structure that follows the **First In, First Out (F
 3. **Circular Queue**: The last position wraps around to the first.
 4. **Priority Queue**: Serve elements based on priority.
 
+## Implementation
+
+Queue can be implemented in two main ways:
+
+- **Using Arrays**: Simple and memory-efficient, but lacks dynamic resizing.
+- **Using Linked Lists**: Allows dynamic sizing, but requires extra memory for pointers.
+- [Queue Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/QUEUE.py)
+
 ## Basic Operations and Complexities:
 | Operation   | Time Complexity | Space Complexity |
 |-------------|-----------------|------------------|
