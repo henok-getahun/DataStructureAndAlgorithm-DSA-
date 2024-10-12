@@ -46,7 +46,8 @@ Arrays can be classified in two ways:
 2. **Insertion in Array**: Adding one or multiple elements at any position.
 3. **Deletion in Array**: Removing an element at any index.
 4. **Searching in Array**: Traversing the array to find an element.
--[Array Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/ARRAY.py)
+
+- [Array Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/ARRAY.py)
 
 ## Complexity Analysis of Operations on Array
 
