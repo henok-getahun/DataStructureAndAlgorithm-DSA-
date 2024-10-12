@@ -26,6 +26,17 @@ Linked lists are preferred over arrays mainly due to their ease of insertion and
 - **Insertion:** Adding a new node by adjusting pointers. Can be done at the beginning, end, or any position.
 - **Deletion:** Removing a node and adjusting neighboring pointers. Can also be done at any position.
 - **Searching:** Traversing from the head to find a specific value.
+- [Linked List Implmentation]()
+## 5. Time and Space Complexity
+
+| Operation               | Time Complexity | Space Complexity |
+|------------------------|-----------------|------------------|
+| Insertion at Beginning | O(1)            | O(1)             |
+| Insertion at End       | O(n)            | O(1)             |
+| Insertion After        | O(n)            | O(1)             |
+| Deletion               | O(n)            | O(1)             |
+| Search                 | O(n)            | O(1)             |
+| Traversal              | O(n)            | O(1)             |
 
 ## 5. Advantages of Linked Lists:
 - **Efficient Insertions/Deletions:** O(1) time for operations, unlike O(n) for arrays.
