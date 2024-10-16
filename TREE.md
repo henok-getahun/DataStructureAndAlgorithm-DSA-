@@ -96,22 +96,23 @@ Binary trees can also be represented using arrays, where the parent-child relati
 3 **Balanced Binary Tree** is a tree where the height difference between the left and right subtrees of every node is at most one. Common examples include AVL trees and Red-Black trees.
 
 ## Example
-
+```plaintext
     1
    / \
   2   3
+```
 # Degenerate (Skewed) Tree
 
 4 **Degenerate (Skewed) Tree** is a tree where each parent node has only one child. This can either be a left-skewed tree or a right-skewed tree.
 
 ## Example
-
+```plaintext
     1
      \
       2
        \
         3
-
+```
 # Operations on Binary Tree
 
 ## Basic Operations
