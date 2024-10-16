@@ -49,7 +49,7 @@ Binary trees can also be represented using arrays, where the parent-child relati
 - The root node is located at index 0.
 
 ### Example
-```plaintext
+
         1
        / \
       2   3
@@ -72,7 +72,7 @@ Binary trees can also be represented using arrays, where the parent-child relati
 1 **Complete Binary Tree** is a type of binary tree in which all levels are fully filled except possibly for the last level, which is filled from left to right.
 
 ## Example
-```plaintext
+
     1
    / \
   2   3
@@ -83,7 +83,7 @@ Binary trees can also be represented using arrays, where the parent-child relati
 2 **Perfect Binary Tree** is a binary tree in which all internal nodes have exactly two children, and all leaf nodes are at the same level.
 
 ## Example
-```plaintext
+
      1
     / \
    2   3
@@ -94,7 +94,7 @@ Binary trees can also be represented using arrays, where the parent-child relati
 3 **Balanced Binary Tree** is a tree where the height difference between the left and right subtrees of every node is at most one. Common examples include AVL trees and Red-Black trees.
 
 ## Example
-```plaintext
+
     1
    / \
   2   3
@@ -103,7 +103,7 @@ Binary trees can also be represented using arrays, where the parent-child relati
 4 **Degenerate (Skewed) Tree** is a tree where each parent node has only one child. This can either be a left-skewed tree or a right-skewed tree.
 
 ## Example
-```plaintext
+
     1
      \
       2
