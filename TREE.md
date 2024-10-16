@@ -67,17 +67,19 @@ Binary trees can also be represented using arrays, where the parent-child relati
     2   3
    / \
   4   5
+
 # Complete Binary Tree
 
 1 **Complete Binary Tree** is a type of binary tree in which all levels are fully filled except possibly for the last level, which is filled from left to right.
 
 ## Example
-
+```plaintext
     1
    / \
   2   3
  / \
 4   5
+```
 # Perfect Binary Tree
 
 2 **Perfect Binary Tree** is a binary tree in which all internal nodes have exactly two children, and all leaf nodes are at the same level.
