@@ -159,7 +159,8 @@ Deletion involves removing a node and restructuring the tree to maintain its pro
 - **Leaf Node Deletion**: The node is removed without further action.
 - **Node with One Child**: The node is replaced with its child.
 - **Node with Two Children**: Replace the node with the rightmost node in the left subtree (in-order predecessor) or the leftmost node in the right subtree (in-order successor).
--[Operation on Binary Tree](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/BinaryTree.py)
+
+-**[Operation on Binary Tree](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/BinaryTree.py)
 
 ## Auxiliary Operations on Binary Tree
 - **Height Calculation**: Determines the maximum depth of the tree. It is useful to understand how balanced the tree is.
