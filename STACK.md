@@ -34,7 +34,7 @@ Stacks are widely used in various computing scenarios due to their efficient han
 - **Syntax Parsing**: Compilers use stacks to parse syntax and manage the order of operations in expressions.
 
 #### 5. Operations Performed
-Here are the main operations performed on stacks, described in formal English:
+Here are the main operations performed on stacks:
 
 **a. Push**
 1. To add an element to the stack, create a new node (or use an array index).
