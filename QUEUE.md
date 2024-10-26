@@ -1,5 +1,5 @@
 
-### Comprehensive Notes on Queues
+###  QUEUE
 
 #### 1. Definition
 A **Queue** is a linear data structure that follows the First In First Out (FIFO) principle, meaning that the first element added to the queue will be the first one to be removed. A queue is often likened to a line of people waiting for service, where the person who arrives first is served first. 
@@ -34,7 +34,7 @@ Queues are widely used in various computing scenarios due to their efficient han
 - **Asynchronous Data Transfer**: Queues are used in scenarios where data is transferred between processes or threads, ensuring orderly processing.
 
 #### 5. Operations Performed
-Here are the main operations performed on queues, described in formal English:
+Here are the main operations performed on queues:
 
 **a. Enqueue**
 1. To add an element to the queue, create a new node containing the data.
