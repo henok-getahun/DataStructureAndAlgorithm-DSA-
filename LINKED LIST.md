@@ -17,7 +17,7 @@ Linked lists are widely used in various applications due to their dynamic nature
 - **Sparse Matrices**: Efficiently representing matrices with many zero values.
 
 #### 4. Operations Performed
-Here are the main operations performed on linked lists, described in formal English:
+Here are the main operations performed on linked lists.
 
 **a. Insertion**
 1. To insert a new node, create the node and set its data.
