@@ -10,7 +10,7 @@ AVL trees are utilized in various applications due to their balanced structure, 
 - **Network Routers**: For maintaining routing tables.
 
 #### 3. Operations Performed
-Here are the main operations performed on AVL trees, described in formal English:
+Here are the main operations performed on AVL trees.
 
 **a. Insertion**
 1. Start at the root node and compare the value to be inserted with the current node's value.
