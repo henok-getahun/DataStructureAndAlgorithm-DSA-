@@ -61,7 +61,7 @@ Here are the main operations performed on Binary Search Trees
   2. Use a queue to keep track of nodes to visit.
   3. Visit the current node and enqueue its children (left child followed by right child).
   4. Repeat until all nodes have been visited.
-[CODE IMPLEMENTAION OF BST](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/BSTree.py)
+- [CODE IMPLEMENTAION OF BST](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/BSTree.py)
 
 #### 4. Time and Space Complexity
 
