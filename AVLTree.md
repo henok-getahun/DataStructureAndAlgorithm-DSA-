@@ -1,4 +1,4 @@
-                             ### AVLTREE
+                             AVLTREE
 #### 1. Definition
 An **AVL Tree** (Adelson-Velsky and Landis Tree) is a self-balancing binary search tree (BST) in which the heights of the two child subtrees of any node differ by at most one. This property ensures that the tree remains approximately balanced, allowing for efficient operations.
 
