@@ -1,7 +1,4 @@
-Here’s a comprehensive note on Binary Heaps, structured similarly to your AVL Tree notes:
-
----
-
+                 BINARY HEAP
 1. **Definition**
    
    A Binary Heap is a complete binary tree that satisfies the heap property. In a Max Heap, for any given node, the value of the node is greater than or equal to the values of its children. In a Min Heap, the value of the node is less than or equal to the values of its children. This structure allows for efficient retrieval of the maximum or minimum element.
@@ -39,6 +36,8 @@ Here’s a comprehensive note on Binary Heaps, structured similarly to your AVL 
    d. **Heapify**
    
    - This operation converts an arbitrary array into a heap structure. It can be done in-place using a bottom-up approach, ensuring that the heap property is maintained.
+
+   - [binary heap code implementaion](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/BinaryHeap.py)
 
 4. **Time and Space Complexity**
    
