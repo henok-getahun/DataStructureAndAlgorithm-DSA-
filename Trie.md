@@ -1,4 +1,5 @@
-           # [TRIE]
+
+## TRIE
 ### Definition
 
 A **Trie** (pronounced "try"), also known as a prefix tree or digital tree, is a specialized tree-like data structure that is used to store a dynamic set of strings, where the keys are usually strings. Each node in a Trie represents a single character of a string, and paths from the root to the leaf nodes represent words. Tries are particularly useful for tasks involving prefix matching and retrieval.
@@ -63,7 +64,7 @@ Here are the main operations performed on Tries:
 
 - To find if any words in the Trie start with a given prefix, follow the same procedure as in the search operation, but do not check the end_of_word flag for the last character.
 
-- - [code implementaion ]('https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Trie.py')
+  -  [code implementaion ](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Trie.py)
 
 
 ### Time and Space Complexity
