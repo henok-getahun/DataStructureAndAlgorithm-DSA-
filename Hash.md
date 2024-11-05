@@ -36,7 +36,7 @@ A Hash Map, also known as a hash table, is a data structure that stores key-valu
   2. Determine the index in the hash table.
   3. Search for the key-value pair at the index.
   4. If found, return the corresponding value.
--[CODE IMPLEMENTATION OF BINARY TREE](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Hash.py)
+- [CODE IMPLEMENTATION OF BINARY TREE](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Hash.py)
 
 **6. Time and Space Complexity**
 | Operation | Average Time Complexity | Worst-Case Time Complexity | Space Complexity |
