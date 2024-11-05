@@ -57,7 +57,6 @@ class Trie:
         return True
 
 
-if __name__ == "__main__":
     trie = Trie()
     trie.add_word("hello")
     trie.add_word("helium")
