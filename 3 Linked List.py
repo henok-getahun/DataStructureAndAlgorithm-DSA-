@@ -60,12 +60,10 @@ class SinglyLinkedList:
             current = None
             return
 
-        
         while current and current.data != key:
             prev = current
             current = current.next
 
-        
         if current is None:
             print(f"Node with data {key} not found.")
             return
@@ -89,7 +87,6 @@ class SinglyLinkedList:
             print(current.data, end=" -> ")
             current = current.next
         print("None")
-
 
 
 #2           DOUBLY LINKED LIST
