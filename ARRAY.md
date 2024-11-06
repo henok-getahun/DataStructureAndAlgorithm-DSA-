@@ -1,8 +1,7 @@
 # Complete Guide to Arrays
 
 ## Introduction
-An **array** is a collection of items of the same variable type that are stored at contiguous memory locations. It is one of the most popular and simple data structures used in programming. This guide aims to provide a comprehensive overview of arrays, helping you tackle any problems related to them.
-
+An **array** is a collection of items of the same variable type that are stored at contiguous memory locations. It is one of the most popular and simple data structures used in programming. 
 ## What is an Array?
 An array is a linear data structure that stores a collection of items of the same data type in contiguous memory locations. Each item in an array is indexed starting from 0, allowing direct access to any element using its index value.
 
