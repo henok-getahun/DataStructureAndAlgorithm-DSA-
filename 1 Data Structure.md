@@ -1,7 +1,5 @@
 # Overview of Data Structures
 
-**Last Updated:** 31 Jul, 2024
-
 ## What is a Data Structure?
 A **data structure** is a specific way of organizing and storing data in a computer to enable efficient access and modification. The primary goals of using data structures are to reduce space and time complexities for various tasks. 
 
