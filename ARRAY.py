@@ -39,8 +39,34 @@ class ArrayOperations:
         return -1
 
 array_ops = ArrayOperations([1, 3, 5, 6, 7])
-array_ops.traversal()
-array_ops.insertion(2, 4)
-array_ops.traversal()
-array_ops.deletion(5)
-array_ops.traversal()
+
+
+# array ds using list
+
+
+class ArrayOperations:
+    def __init__(self, initial_data):
+        self.arr = initial_data 
+
+    def traversal(self):
+        for x in self.arr:
+            print(x, end=' ')
+        print()
+
+    def insertion(self, idx, val):
+        self.arr.insert(idx, val)  
+
+    def deletion(self, val):
+        idx = self.search(val)
+        if idx != -1:
+            self.arr.pop(idx) 
+
+    def search(self, val):
+        for i in range(len(self.arr)):
+            if self.arr[i] == val:
+                return i
+        return -1
+
+array_ops = ArrayOperations([1, 3, 5, 6, 7])
+
+
