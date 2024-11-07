@@ -67,8 +67,8 @@ Here are the main operations performed on queues:
 
 | Operation      | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity |
 |----------------|----------------------------|-------------------------|------------------|
-| Enqueue        | O(1)                       | O(1)                    | O(n)             |
-| Dequeue        | O(1)                       | O(1)                    | O(n)             |
+| Enqueue        | O(1)                       | O(1)                    | O(1)             |
+| Dequeue        | O(1)                       | O(1)                    | O(1)             |
 | Peek           | O(1)                       | O(1)                    | O(1)             |
 | IsEmpty        | O(1)                       | O(1)                    | O(1)             |
 | Size           | O(1)                       | O(1)                    | O(1)             |
