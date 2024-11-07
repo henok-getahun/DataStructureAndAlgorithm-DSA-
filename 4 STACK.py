@@ -8,7 +8,7 @@ class Stack:
        self.maxSize = 10
 
     def push(self, value):
-        if len(self.stack) == self.maxSize-1:
+        if len(self.stack) == self.maxSize:
             return 'stack overflow'
         else:
             self.stack.append(value)
@@ -46,7 +46,6 @@ class StackNode:
     def __int__(self, value):
         self.value = value
         self.next = None
-
 
 class Stack:
     def __init__(self):
