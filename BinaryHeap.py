@@ -14,7 +14,7 @@ def topOfHeap(heap):
     return heap.elements[1]
 
 
-def countOfHeap(heap):
+def sizeOfHeap(heap):
     if not heap:
         return 0
     return heap.currentSize
