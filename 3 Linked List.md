@@ -40,7 +40,7 @@ Here are the main operations performed on linked lists.
 - **Forward Traversal**: Start at the head node and traverse through the list by following the next pointers until reaching the end (None).
   
 - **Backward Traversal**: (Applicable only in doubly linked lists) Start at the tail node and traverse backward using the previous pointers until reaching the head.
-- [Linked List Code Implmentation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/Linked%20List.py)
+- [Linked List Code Implmentation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/3%20Linked%20List.py)
 #### 5. Time and Space Complexity
 
 | Operation      | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity |
