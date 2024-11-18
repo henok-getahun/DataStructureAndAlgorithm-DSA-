@@ -62,7 +62,7 @@ Here are the main operations performed on queues:
 1. To determine the number of elements in the queue, maintain a count variable that is updated during enqueue and dequeue operations.
 2. Return the count variable when requested.
 
-- [Queue Code Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/QUEUE.py)
+- [Queue Code Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/5%20QUEUE.py)
 #### 6. Time and Space Complexity
 
 | Operation      | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity |
