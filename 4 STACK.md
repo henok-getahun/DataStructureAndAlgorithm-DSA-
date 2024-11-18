@@ -58,7 +58,7 @@ Here are the main operations performed on stacks:
 1. To determine the number of elements in the stack, maintain a count variable that is updated during push and pop operations.
 2. Return the count variable when requested.
 
-- [Stack Code Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/STACK.py)
+- [Stack Code Implementation](https://github.com/henok-getahun/DataStructureAndAlgorithm-DSA-/blob/main/4%20STACK.py)
 
 #### 6. Time and Space Complexity
 
